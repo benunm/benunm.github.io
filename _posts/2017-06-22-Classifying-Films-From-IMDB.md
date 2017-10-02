@@ -1,4 +1,4 @@
-   I wanted to predict the IMDB ratings for movies on the site. IMDB has a free API, but I noticed that information is missing for a lot of films - information that can be found directly on the site. In order to work around this issue, I decided to scrape IMDB proper and avoid the API. I used BeautifulSoup to do scrape.
+   I wanted to predict the IMDB ratings for movies on the site. IMDB has a free API, but I noticed that information is missing for a lot of films - information that can be found directly on the site. In order to work around this issue, I decided to scrape IMDB proper and avoid the API. I used requests and BeautifulSoup to do the scraping.
 
    I first read in a page of the top rated movies, and edited the URL in order to get the top 700 and worst 700 films. I then created a dataframe in Pandas with the film title, year, genre, IMDB rating, Metascore, and language. 
 
